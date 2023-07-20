@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    background:linear-gradient(rgba(13, 26, 56, 0.705),rgba(0,0,0,.7)), url(img/resim1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header .col a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu ul{
+    margin-top: 2rem;
+}
+
+.header .col-sm-3{
+    margin-top: 2rem;
+}
+
+.header-content{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding-bottom: 8rem;
+}
+
+.red{
+    color: #990033;
+}
+
+.gray{
+    color: gray;
+}
+
+.black{
+    color: black;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #020a20;
+}
+
+.text-size{
+    font-size: 11px;
+}
+
+footer h5{
+    margin-bottom: 20px;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+footer ul li a{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.small{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.empty{
+    height: 35px;
+}
+
+#button-addon2{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+footer .input-button .email-add{
+    width: 25%;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .header-content{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+}
